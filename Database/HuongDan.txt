@@ -1,0 +1,16 @@
+Họ tên: Nguyễn Trần Đoan Thi
+MSSV: 2221004306
+Đề tài: Xây dung Website quản lý bán sách của nhà sách Fahasa
+
+Công cụ:
+- Microsoft Visual Studio 2022
+- SQL Server Management Studio 20
+
+Hướng dẫn:
+- Sau khi cài đặt xong 2 phần mềm, vào SSMS và attach file mdf
+- Vào Microsoft Visual Studio 2022, mở project và chọn Web.config
+- Tại dòng lệnh: <add name="FahasaDB" connectionString="Data Source=BONGCAIXANH\SQLEXPRESS; Initial Catalog=Fahasa_Website; Integrated Security=True" providerName="System.Data.SqlClient" />
+thay chữ "BONGCAIXANH" thành tên server máy chạy project, Sau đó chạy các file trang web.
+
+- Các trang web cho Khách hàng trong thư mục User.
+- Các trang web cho Quản lý trong thư mục Admin.

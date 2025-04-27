@@ -1,0 +1,68 @@
+﻿table {
+    border-spacing: 16px;
+}
+
+td {
+    line-height: 0;
+}
+
+.account {
+    margin: 36px auto;
+}
+
+.account_heading {
+    font-size: 3rem;
+    line-height: 1.6;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.account_title {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.account_input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    outline: none;
+    padding: 8px 16px;
+    color: var(--text-color);
+}
+
+.account_text {
+    font-size: 2rem;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+.account_star {
+    color: #ff0000;
+    font-size: 3rem;
+    vertical-align: middle;
+    display: block;
+    text-align: right;
+}
+
+.account_link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+}
+
+.account_checkbox {
+    font-size: 1.6rem;
+    color: #999;
+}
+
+    .account_checkbox > input {
+        margin-left: 36px;
+        margin-right: 8px;
+    }
+
+    .account_checkbox > * {
+        vertical-align: middle;
+    }
